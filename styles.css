@@ -13,22 +13,13 @@ body {
   padding: 0;
 }
 @media screen and (min-width:768px){
-  body{
-    
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-  }
+
   .container{
     /* width: 50%;
     height: 50%; */
     width: 100svw;
     height: 100svh;
   }
-  /* button{
-    height: 5rem;
-    width: 15rem;
-  } */
 }
 .container {
   display: flex;
@@ -76,7 +67,12 @@ button{
   color: #4ECCA3;
 }
 
-p {
+h1{
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+p{
   font-size: 2rem;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
